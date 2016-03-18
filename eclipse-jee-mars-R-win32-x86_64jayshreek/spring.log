@@ -1,0 +1,51 @@
+2016-03-18 11:19:10.247  INFO 5080 --- [main] data.Application                         : Starting Application on jayshreek with PID 5080 (D:\eclipse-jee-mars-R-win32-x86_64\jayshreek\SpringBootRestApplication\target\classes started by jayshreek in D:\eclipse-jee-mars-R-win32-x86_64\jayshreek\SpringBootRestApplication)
+2016-03-18 11:19:10.310  INFO 5080 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bbf683: startup date [Fri Mar 18 11:19:10 IST 2016]; root of context hierarchy
+2016-03-18 11:19:12.701  INFO 5080 --- [main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2016-03-18 11:19:12.717  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.springframework.jdbc.datasource.DriverManagerDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:12.998  INFO 5080 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-03-18 11:19:13.077  INFO 5080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-03-18 11:19:13.342  INFO 5080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.8.Final}
+2016-03-18 11:19:13.342  INFO 5080 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-03-18 11:19:13.358  INFO 5080 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-03-18 11:19:13.983  INFO 5080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-03-18 11:19:15.296  INFO 5080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-03-18 11:19:15.516  INFO 5080 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-03-18 11:19:16.360  INFO 5080 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-03-18 11:19:16.376  INFO 5080 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-03-18 11:19:16.439  INFO 5080 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-03-18 11:19:16.611  INFO 5080 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: test.users
+2016-03-18 11:19:16.611  INFO 5080 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [name, id, email]
+2016-03-18 11:19:16.611  INFO 5080 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-03-18 11:19:16.611  INFO 5080 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [primary]
+2016-03-18 11:19:16.611  INFO 5080 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-03-18 11:19:16.689  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:16.704  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dbconfig' of type [class data.config.Dbconfig$$EnhancerBySpringCGLIB$$cf9d2cfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:16.954  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31307def] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:17.001  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:17.017  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:17.033  INFO 5080 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-18 11:19:18.283  INFO 5080 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-03-18 11:19:19.096  INFO 5080 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-18 11:19:19.096  INFO 5080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.20
+2016-03-18 11:19:19.487  INFO 5080 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-03-18 11:19:19.489  INFO 5080 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9195 ms
+2016-03-18 11:19:19.800  INFO 5080 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-18 11:19:19.800  INFO 5080 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-18 11:19:20.613  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public data.domain.Response data.web.UserController.delete(long)
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/insert],methods=[POST],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public data.domain.Response data.web.UserController.create(data.domain.User)
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/],methods=[GET],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public data.domain.Response data.web.UserController.getEmps()
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public data.domain.Response data.web.UserController.getByID(long)
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/update],methods=[PUT],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public data.domain.Response data.web.UserController.Update(data.domain.User)
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-03-18 11:19:20.614  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-03-18 11:19:21.426  INFO 5080 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bbf683: startup date [Fri Mar 18 11:19:10 IST 2016]; root of context hierarchy
+2016-03-18 11:19:21.504  INFO 5080 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandlerController
+2016-03-18 11:19:22.207  INFO 5080 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-18 11:19:22.443  INFO 5080 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-03-18 11:19:22.443  INFO 5080 --- [main] data.Application                         : Started Application in 12.868 seconds (JVM running for 13.733)
+2016-03-18 11:21:07.612  INFO 5080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-18 11:21:07.613  INFO 5080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-03-18 11:21:07.721  INFO 5080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 107 ms
+2016-03-18 11:21:09.960 ERROR 5080 --- [http-nio-8080-exec-1] data.web.UserController                  : User not found
